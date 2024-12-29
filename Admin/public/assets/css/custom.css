@@ -1,0 +1,91 @@
+.multiurun .sol .card,.multiurun .sag .card select{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+.multiurun ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.multiurun .sol li{
+    width: 100%;
+    padding:5px;
+}
+.multiurun .sol li:hover,.multiurun .sag .card select option:hover{
+    background: #393d42;
+    color:#fff;
+    cursor: pointer;
+}
+.multiurun .sol .card{
+    border:1px solid #393d42;
+}
+.multiurun .sag .card{
+    padding:0px !important;
+}
+.multiurun .sag .card select{
+    background-color: transparent;
+}
+.multiurun .sag .card select option{
+    color:#a5a8ad;
+    padding:5px;
+}
+
+.deactiveTab::after{
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f078"; /* FontAwesome Unicode */
+    font-weight: 900;
+    margin-left: 10px;
+    color:#17C2D7;
+}
+.activeTab::after{
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f077"; /* FontAwesome Unicode */
+    font-weight: 900;
+    margin-left: 10px;
+    color:#17C2D7;
+}
+.urunResim{
+    object-fit: contain !important;
+}
+.navbar-nav .dropdown-menu li.header.orange{
+    background:linear-gradient(135deg, rgba(255,193,7,0.5) 0%, rgba(255,139,7,0.95) 100%);
+}
+.navbar-nav .dropdown-menu li.header.orange::after{
+    background:url("../../assets/images/image-gallery/3.jpg") repeat scroll center center/cover;
+    opacity:0.6;
+}
+#Order_status{
+    margin-bottom: 65px;
+}
+#chart-Short-Term-Assets{
+    max-height: 390px !important;
+    height:390px !important;
+}
+.custom-text{
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+#map{width:1050px;height:620px;position:relative;margin:auto;}
+#map svg {position: relative;top: -100px; left: 0px;}
+svg > a {cursor: pointer;display:block;}
+#map svg path:hover{cursor:crosshair !important;}
+#map svg{
+    top:none !important;
+    margin-top:-100px;
+    overflow:visible !important;
+}
+#map{height:520px;}
+.numberCity{
+    font-size: 18px;
+    border-radius: 100px;
+    padding:6px;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.cityTable{margin-bottom: 0px;}
+.cityTable tr{
+    width:100%; 
+}
+.cityTable tr td{padding-bottom: 0px !important;}
+.cityTable tr td p{margin-left:32.5px;}
+.cityTable tr:nth-child(1) td{border-top:none;}
+.cityTable tr td h6{color:#a5a8ad}
+.c3-chart-arc path{stroke:transparent !important;}

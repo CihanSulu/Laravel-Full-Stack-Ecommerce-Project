@@ -1,0 +1,15 @@
+{
+    "short_name": "Tester Parfümleri",
+    "name": "%70 İndirimli Tester Parfümler Satın Al",
+    "icons": [
+      {
+        "src": "/assets/images/favicon.png",
+        "type": "image/png",
+        "sizes": "50x50"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "theme_color": "#CE2778"
+  }
